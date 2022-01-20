@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+.display{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.pricing-card {
+    border-radius: 25px;
+    width: 170px;
+    height: 300px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    font-family: 'lato', sans-serif;
+    overflow:hidden;
+    color: #555555;
+    margin: 12.5px;
+    line-height: 1.5;
+    font-size: 8px;
+
+    
+    
+    
+    
+}
+
+.title{
+    background: #009578;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+.title h2{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.title p{
+    margin: 0;
+    font-size: 1em;
+    font-weight: 390;
+}
+
+
+.description {
+    padding: 18px 20px;
+}
+
+.list {
+   padding: 0;
+   margin: 0;
+}
+
+.item {
+    
+    list-style: none;
+    margin: 0;
+    padding-left: 23px;
+    position: relative;
+    
+    
+}
+
+.item:not(:last-child){
+    margin-bottom: 0.5em;
+}
+
+.item::before{
+    content: '\2714';
+    color: #009578;
+    position: absolute;
+    left: 10px;
+
+}
+
+.items {
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.items h1 {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 2em;
+}
+
+.items p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.items a {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: #009578;
+    margin: 20px ;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+}
+
+.items a:hover{
+    background: #009578;
+    color: white;
+}
